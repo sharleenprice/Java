@@ -30,11 +30,6 @@ Public void shuffle
 Collections.shuffle will randomly mix the array of card objects. I wrote the for loop to repeat this shuffling 1000 time just to ensure the deck is shuffled very well.
 
 
-
-
-
-
-
 Public card draw
 This method returns and removes the first card object in the Deck.
 
@@ -68,10 +63,6 @@ This method allows you to access an individual card in the player’s hand.
 
 Public int getCardSum
 As in the dealer class, this method calculates the sum and adjust accordingly depending on the best value of Ace.
-
-
-
-
 
 
 Public int getBalance(int initial, int bet)
