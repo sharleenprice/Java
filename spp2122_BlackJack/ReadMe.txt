@@ -1,8 +1,3 @@
-﻿
-
-
-
-
 Sharleen Price
 Readme.TXT
 
@@ -100,3 +95,5 @@ When the player decided to stand, we then see the dealer’s cards and the deale
 Finally, it is evaluated whether either the dealer or play has a number closer to 21. If the player wins, he/she gets back the bet plus half of the bet.  If he/she loses, the initial bet is lost. If there is a tie or push, the player gets their bet back but does not make any additional money.
 
 The user is then asked if the game should continue and the user’s balance is checked if there is enough money to place a bet. The deck is also reset if the deck size is less than 12. 
+
+
