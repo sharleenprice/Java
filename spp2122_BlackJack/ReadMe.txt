@@ -1,8 +1,3 @@
-﻿
-
-
-
-
 Sharleen Price
 Readme.TXT
 
@@ -33,11 +28,6 @@ This method allows you to access an individual card in an deck object
 
 Public void shuffle
 Collections.shuffle will randomly mix the array of card objects. I wrote the for loop to repeat this shuffling 1000 time just to ensure the deck is shuffled very well.
-
-
-
-
-
 
 
 Public card draw
@@ -75,10 +65,6 @@ Public int getCardSum
 As in the dealer class, this method calculates the sum and adjust accordingly depending on the best value of Ace.
 
 
-
-
-
-
 Public int getBalance(int initial, int bet)
 This method subtracts the initial balance from the bet
 
@@ -100,3 +86,5 @@ When the player decided to stand, we then see the dealer’s cards and the deale
 Finally, it is evaluated whether either the dealer or play has a number closer to 21. If the player wins, he/she gets back the bet plus half of the bet.  If he/she loses, the initial bet is lost. If there is a tie or push, the player gets their bet back but does not make any additional money.
 
 The user is then asked if the game should continue and the user’s balance is checked if there is enough money to place a bet. The deck is also reset if the deck size is less than 12. 
+
+
